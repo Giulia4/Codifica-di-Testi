@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+
+<text>
+    <![CDATA[<h1>Title<h1> <p>Lorem ipsum "dolor" </p>]]>
+</text>
+
+<!-- Inserire all'interno di un tag un frammento di codice HTML -->
