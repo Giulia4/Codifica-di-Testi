@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE libro [
+    <!ELEMENT libro (capitolo+)>
+    <!ELEMENT capitolo (titolo, paragrafo+)>
+    <!ELEMENT titolo (#PCDATA)>
+    <!ATTLIST titolo numero NMTOKEN #REQUIRED>
+    <!ELEMENT paragrafo (frase+)>
+    <!ATTLIST paragrafo sottotitolo CDATA #IMPLIED>
+    <!ELEMENT frase (#PCDATA)>]>
+
+<libro>
+    <capitolo>
+        <titolo numero="1"> Capitolo </titolo>
+        <paragrafo>
+            <frase> Lorem ipsum dolor sit amet, consectetur adipisci elit, 
+            sed eiusmod tempor incidunt ut labore et dolore magna aliqua. </frase>
+            <frase> Ut enim ad minim veniam, quis nostrum exercitat
+            ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. </frase>
+        </paragrafo>
+        <paragrafo>
+            <frase> Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</frase>
+        </paragrafo>
+    </capitolo>
+    <capitolo>
+        <titolo numero="2"> Capitolo </titolo>
+        <paragrafo sottotitolo ="Lorem ipsum">
+            <frase> Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit
+             anim id est laborum. </frase>
+        </paragrafo>
+    </capitolo>
+</libro>
+
+
+
+
+<!-- includere all'interno di un documento XML la
+dichiarazione del tipo, definire internamente gli elementi e
+gli attributi e validare. -->

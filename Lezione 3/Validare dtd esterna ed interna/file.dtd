@@ -1,0 +1,9 @@
+<!ELEMENT libro (capitolo+)>
+<!ELEMENT capitolo (titolo, paragrafo+)>
+<!ELEMENT titolo (#PCDATA)>
+<!ATTLIST titolo numero NMTOKEN #REQUIRED>
+<!ELEMENT paragrafo (frase+)>
+<!ATTLIST paragrafo sottotitolo CDATA #IMPLIED>
+<!ELEMENT frase (#PCDATA)>
+
+
