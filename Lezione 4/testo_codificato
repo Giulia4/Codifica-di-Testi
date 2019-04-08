@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "file.dtd"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader xml:lang="it">
+		<fileDesc>
+			<titleStmt>	
+				<title>Il piccolo principe</title>
+				<respStmt>
+					<resp>Codifica a cura di</resp>
+					<name>Giulia Cultrera</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Mondadori</publisher>
+				<date>2015</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Il piccolo principe</title>
+					<author>Antoine Saint-Exupéry</author>
+					<publisher>Mondadori</publisher>
+					<date>2015</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader> 
+    <text>
+        <body>
+            <div n="2" type="capitolo">
+                <head n="2" xml:id="cap_2">Capitolo 2</head>
+                <p> Cosi’ ho trascorso la mia vita solo, senza nessuno cui poter parlare, fino a <num type="cardinal" value="6">sei</num> anni fa quando ebbi un incidente col mio aeroplano, nel deserto del Sahara. </p>
+                <p> Qualche cosa si era rotta nel motore, e siccome non avevo con me ne’ un meccanico, ne’ dei passeggeri, mi accinsi da solo a cercare di riparare il guasto. </p>
+                <p> Era una questione di vita o di morte, perche’ avevo acqua da bere soltanto per una settimana. </p>
+                <p> La <num type="ordinal" value="1">prima</num> notte, dormii sulla sabbia, a <num type="cardinal" value="1000">mille</num> miglia da qualsiasi abitazione umana. </p> 
+                <p> Ero piu’ isolato che un marinaio abbandonato in mezzo all’oceano, su una zattera, dopo un naufragio. </p>
+                <p> Potete immaginare il mio stupore di essere svegliato all’alba da una strana vocetta: <q> “Mi disegni, per favore, una pecora?” </q></p>
+                <p> <q> “Cosa?” </q></p>
+                <p> <q> “Disegnami una pecora”. </q></p> 
+                <p> Balzai in piedi come fossi stato colpito da un fulmine. </p>
+                <p> Mi strofinai gli occhi piu’ volte guardandomi attentamente intorno. </p>
+                <p> E vidi una straordinaria personcina che mi stava esaminando con grande serieta’. </p>
+                <p> Qui potete vedere il miglior ritratto che riuscii a fare di lui, piu’ tardi. </p>
+                <p> Ma il mio disegno e’ molto meno affascinante del modello. </p>
+                <p> La colpa non e’ mia, pero’. </p>
+                <p> Con lo scoraggiamento che hanno dato i grandi, quando avevo <num type="cardinal" value="6">sei</num> anni, alla mia carriera di pittore, non ho mai imparato a disegnare altro che serpenti boa dal di fuori o serpenti boa dal di dentro. </p>
+                <p> Ora guardavo fisso l’improvvisa apparizione con gli occhi fuori dall’orbita per lo stupore. </p>
+                <p> Dovete pensare che mi trovavo a <num type="cardinal" value="1000">mille</num> miglia da una qualsiasi regione abitata, eppure il mio ometto non sembrava smarrito in mezzo alle sabbie, ne' tramortito per la fatica, o per la fame, o per la sete, o per la paura. </p> 
+                <p> Niente di lui mi dava l’impressione di un bambino sperduto nel deserto, a <num type="cardinal" value="1000">mille</num> miglia da qualsiasi abitazione umana. </p>
+                <p> Quando finalmente potei parlare gli domandai: <q> “Ma che cosa fai qui?” </q></p>
+                <p> Con tutta risposta, egli ripete’ lentamente come si trattasse di cosa di molta importanza: <q> “Per piacere, disegnami una pecora…” </q></p>
+                <p> Quando un mistero e’ cosi’ sovraccarico, non si osa disubbidire. </p> 
+                <p> Per assurdo che mi sembrasse, a <num type="cardinal" value="1000">mille</num> miglia da ogni abitazione umana, e in pericolo di morte, tirai fuori dalla tasca un foglietto di carta e la penna stilografica. </p>
+                <p> Ma poi ricordai che i miei studi si erano concentrati sulla geografia, sulla storia, sull’aritmetica e sulla grammatica e gli dissi, un po’ di malumore, che non sapevo disegnare. </p> 
+                <p> Mi rispose: <q> “Non importa. Disegnami una pecora…” </q></p>
+                <p> Feci il disegno.</p>
+                <p> Fui molto sorpreso di vedere il viso del mio piccolo giudice illuminarsi. </p>
+                <p><q> “Questo e’ proprio quello che volevo. </q></p>
+                <p> E fu cosi’ che feci la conoscenza del piccolo principe. </p>
+            </div>
+        </body>
+    </text>
+</TEI>
