@@ -2,12 +2,12 @@
 
 <!ELEMENT header (#PCDATA)>
 <!ATTLIST header 
-        type CDATA #FIXED "type"
+        type CDATA #FIXED "intestazione"
         lang NMTOKEN #IMPLIED>
 
 <!ELEMENT facsimile (#PCDATA)>
 <!ATTLIST facsmile 
-        source #REQUIRED
+        source CDATA #REQUIRED
         ref IDREFS #IMPLIED>
 
 <!ELEMENT testo (#PCDATA|seg)*>
@@ -26,6 +26,6 @@ Figli:
         - testo(obbligatorio una o più volte)
         * testo è un mixed content con possibile elemento <seg>
 Attributi:
-        - header: type:(fixed, CDATA "intestazione"); lang(opzionale, NMTOKEN)
+        - header: type:(fixed, CDATA "intestazione"); lang(opzionale, NMTOKEN)
         - facsimile: source:(obbligatorio); ref(optionale, IDREFS)
         - testo: id(obbligatorio, ID) type(opzionale contenuto testuale) -->
