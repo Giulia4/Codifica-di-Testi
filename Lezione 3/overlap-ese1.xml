@@ -15,5 +15,5 @@
 <!-- Errore: Opening and ending tag mismatch. 
      Correzioni: chiusura del tag </p> alla linea 8 e apertura del tag <p> alla linea 10. -->
 
-<!-- Sibiling: tag <p> alla linea 7.
+<!-- Sibling: tag <p> alla linea 7.
      Child: tag <bold> alla linea 10. -->
