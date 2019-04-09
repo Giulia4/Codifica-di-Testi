@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd"> 
+<TEI xmlns = "http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><name type="superhero" xml:id="Bat">Batman</name>, l'oscuro principe di <name type="person" xml:id="EM">Enrico Marini</name></title>
+                <author xml:id="AN">Alessandro di Nocera</author>
+                <respStmt>
+                    <resp>Codifica a cura di:</resp>
+                        <name type="person" xml:id="GC">Giulia Cultrera</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <publisher xml:id="Rep">Repubblica.it</publisher>
+                <date>3 novembre 2018</date>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl type="article">
+                    <title><name ref="Bat">Batman</name>, l'oscuro principe di <name ref="#EM">Enrico Marini</name></title>
+                    <author ref="AN">Alessandro di Nocera</author>
+                    <publisher ref="Rep">Repubblica.it</publisher>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div type="articolo">               
+                <p>
+                    Italo-svizzero, <num type="cardinal">49</num> anni che non traspaiono dal suo aspetto sempre giovanile e sorridente, 
+                    <name ref="EM">Enrico Marini</name> è una delle superstar della ricca e vastissima industria del fumetto transalpina, 
+                    nell’ambito della quale ha realizzato serie di ampio successo di critica e di pubblico quali lo storico-avventuroso 
+                    <title level="m">“Lo Scorpione”,</title> su sceneggiature di <name type="person" xml:id="SD">Stephen Desberg</name>, e il 
+                    peplum <title level="s">“Le Aquile di Roma”</title>, di cui realizza sia le storie che le illustrazioni.
+                </p>
+                <p>
+                    Adesso, grazie a una partnership tra il suo attuale editore di riferimento – il colosso francese <name type="org" xml:id="D">
+                    Dargaud</name> – e l’americana <name type="org" xml:id="DC">DC Comics</name>, <name ref="EM">Marini</name> sta portando 
+                    avanti un’avventura di <name ref="Bat">Batman</name> il cui <num type="ordinal" value="1">primo</num> capitolo è stato pubblicato 
+                    da poco nel nostro <name type="country" xml:id="IT">Paese</name> dalla <name type="org" xml:id="RW">RW-Lion</name>, la casa 
+                    editrice, con core produttivo ad <name type="city">Arzano</name>, in provincia di <name type="district">Napoli</name>, è infatti
+                    licenziataria italiana dei diritti sui personaggi supereroistici targati <name ref="#DC">DC</name>. 
+                </p>            
+                <p>
+                    La storia scaturisce dalla voglia del cartoonist di <name type="city" xml:id="BA">Basilea</name> di cimentarsi con un noir. 
+                    In <title>“<name ref="Bat">Batman</name>: L’oscuro principe azzurro”</title>, infatti, è la figura di un <name type="antihero"
+                    xml:id="J">Joker</name> più folle e criminale che mai a contendere la scena al Crociato incappucciato di <name type="city" 
+                    xml:id="city">Gotham City</name>. Tutto ruota attorno al rapimento, portato avanti dal perverso pagliaccio, di una bambina che 
+                    trebbe essere figlia di <name type="person" xml:id="BW" ref="Bat">Bruce Wayne</name>, il plurimiliardario che indossa il costume 
+                    di <name ref="Bat">Batman</name>. Co-protagoniste femminili, una sempre determinata e sensuale <name type="antihero" xml:id="Cat">
+                    Catwoman</name> e una <name type="antihero" xml:id="HQ">Harley Quinn</name> che col <name ref="J">Joker</name> continua a vivere un
+                    pazzesco e violento amore folle.
+                </p>
+            </div>
+        </body>
+    </text>
+</TEI>
