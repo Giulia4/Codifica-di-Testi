@@ -7,19 +7,19 @@
 				<title>Il piccolo principe</title>
 				<respStmt>
 					<resp>Codifica a cura di</resp>
-					<name>Giulia Cultrera</name>
+					<name type="person">Giulia Cultrera</name>
 				</respStmt>
 			</titleStmt>
 			<publicationStmt>
 				<publisher>Mondadori</publisher>
-				<date>2015</date>
+				<date when="2015">2015</date>
 			</publicationStmt>
 			<sourceDesc>
 				<bibl>
 					<title>Il piccolo principe</title>
 					<author>Antoine Saint-Exupéry</author>
 					<publisher>Mondadori</publisher>
-					<date>2015</date>
+					<date when="2015">2015</date>
 				</bibl>
 			</sourceDesc>
 		</fileDesc>
