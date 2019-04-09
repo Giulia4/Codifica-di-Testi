@@ -1,0 +1,81 @@
+<TEI xmlns="http://www.tei-c.otg/ns/1.0">
+    <teiHeader>
+        <fileDesc xml:lang="it"> //descrizionefile
+
+            <titleStmt>
+                <title>Il mio primo dizionario</title>
+                <author>Giulia</author>
+            </titleStmt>
+
+            <publicationStmt>
+                <p>Informazioni sulla pubblicazione</p>
+            </publicationStmt>
+
+            <sourceDesc>
+                <p>Informazioni sulla sorgente</p>
+            </sourceDesc>  
+
+        </fileDesc>
+    </teiHeader>
+
+    <text>
+        <body>
+            
+            <entry n="1">
+                <form type="lemma">
+                    <orth>fregare</orth>
+                    <pron notation="ipa">fre'gare</pron>
+                    <syll>fre|gà|re</syll>
+                </form>
+
+                <gramGrp>
+                    <pos> vtr.</pos>
+                </gramGrp>
+
+                <etym> dal <lang> latino </lang>
+                    <mentioned> fricare </mentioned>
+                </etym>
+
+                <sense n="s1">
+                    <def> fare dei freghi </def>
+                    <cit type="example">
+                        <quote> Avendo preso male le misure, fregò la portirera dell'automobile contro la colonna dell'ingresso </quote>
+                    </cit>
+                </sense>
+
+                <sense n="s2">
+                    <usg type="register"> (popolare) </usg>
+                    <def> tirare un bidone </def>
+                    <cit type="example">
+                        <quote> Ti ho fregato! </quote>
+                    </cit>
+                </sense>
+
+                <sense n="s3">
+                    <def> rubare </def>
+                    <cit type="example">
+                        <quote> mi sono distratta un attimo e mi hanno fregato la borsa da sotto il naso. </quote>
+                    </cit>
+                </sense>
+                
+                <sense n="s5">
+                    <def> interessare, importare </def>
+                    <cit type="example">
+                        Non me ne frega niente
+                    </cit>
+                </sense>
+
+                <sense n="s5">
+                    <note> (per estensione) </note>
+                    <def> imbrogliare o ingannare, quindi in modo ipocrita </def>
+                    <cit type="example">
+                        <quote> Ti ho fregato! </quote>
+                    </cit>
+                </sense>
+            </entry>
+
+        </body>
+    </text>
+</TEI>
+
+                
