@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE TEI SYSTEM "tei_lite.dtd"> 
+<TEI xmlns="http://www.tei-c.org/ns/1.0"> 
+    <teiHeader xml:lang="it">
+		<fileDesc>
+			<titleStmt>	
+				<title>Romanzi da comprare</title>
+				<respStmt>
+					<resp>Codifica a cura di</resp>
+					<name>Giulia Cultrera</name>
+				</respStmt>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>Anonimo</publisher>
+				<date>2019</date>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Romanzi da comprare</title>
+					<author>Giulia Cultrera</author>
+					<publisher>Anonimo</publisher>
+					<date>2019</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader> 
+    <text>
+        <body>
+            <div n="1" type="cap_1">
+                <div type="puntatore">
+                    <p>
+                        La lista dei romanzi è consultabile alla sezione <ptr target="#romanzi"/>, mentre la lista dei termini contenuti nel 
+                        <note type="romanzo distopico">romanzo <title>1984</title></note> è presente nel <ref target="#cap_2">secondo capitolo</ref>. 
+                    </p>
+                </div>
+                <div xml:id="romanzi" type="lista_romanzi">
+                    <list type="libri">
+                        <head>Lista dei romanzi da leggere:</head>
+                        <item n="1">Il nome della rosa</item>
+                        <item n="2">Il <rs type="persone">vecchio</rs> e il mare</item>
+                        <item n="3">Il buio oltre la siepe</item>
+                        <item n="4">Le avventure di <name type="person">Tom Sayer</name></item>
+                        <item n="5">Fahrenheit 451</item>
+                        <item n="6">Il piccolo principe</item>
+                    </list>
+                </div>
+            </div>
+            <div n="2" type="cap_2">
+                <div xml:id="glossario" type="lista_termini">
+                    <list type="gloss">
+                        <head>Lista dei termini contenuti nei titoli dei romanzi:</head>
+                        <label>Socing</label>
+                        <item n="1">Partito <term>Socialista</term> Inglese</item>
+                        <label>Prolet</label>
+                        <item n="2">Proletariato</item>
+                        <label>Minamor</label>
+                        <item n="3">Ministero dell'amore</item>
+                        <label>Neolingua</label>
+                        <item n="4">Nuova lingua</item>
+                        <label>Archelingua</label>
+                        <item n="5">Inglese standard</item>
+                        <label>Psicopolizia</label>
+                        <item n="6">Polizia Politica</item>
+                    </list>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
